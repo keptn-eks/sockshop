@@ -3,7 +3,7 @@ stages:
     deployment_strategy: "direct"
     test_strategy: "functional"
     remediation_strategy: "automated"
-- name: "staging"
+  - name: "staging"
     deployment_strategy: "blue_green_service"
     test_strategy: "performance"
   - name: "production"
